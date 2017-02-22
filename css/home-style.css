@@ -16,12 +16,7 @@ a {
 footer {
 	height: 100px;
 }
-/* Removes footer when not viewing in a mobile phone */
-@media (min-width: 420px) {
-    footer {
-        display: none;
-    }
-}
+
 
 .wrapper {
 	position: relative;
@@ -158,6 +153,29 @@ li {
     content: "";
     clear: both;
     display: table;
+}
+
+
+/* MEDIA QUERIES BELOW */
+
+/* Removes footer when not viewing in a mobile phone */
+@media (min-width: 420px) {
+    footer {
+        display: none;
+    }
+}
+
+/* Modifies the view to accomodate elements into mobile screen size */
+@media (max-width: 419px) {
+    .wrapper {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .liGallery, .liAboutme, .liInfo {
+    margin-right: 15px;
+}
+
 }
 
 
