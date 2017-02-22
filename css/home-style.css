@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+	font-family: futura, sans-serif;
+}
+
+a { 
+	color: inherit;
+	cursor: pointer; cursor: hand;
+	text-decoration: none;
+}
+
+/* Creates space for filling out white space when viewed in a mobile phone */
+footer {
+	height: 100px;
+}
+/* Removes footer when not viewing in a mobile phone */
+@media (min-width: 420px) {
+    footer {
+        display: none;
+    }
+}
+
+.wrapper {
+	position: relative;
+	padding: 40px 60px 60px 60px;
+	box-sizing:border-box;
+	
+
+}
+
+#header {
+	text-align: center;
+	font-size: 42px;
+	letter-spacing: .14em;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    padding-bottom: 0;
+}
+
+#logo {
+	/*max-width: 30%; 
+	max-height: 30%;*/
+	max-width: 100%;
+    height: auto;
+	margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#aboutsite {
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    padding-top: 0;
+    color: #ddd;
+}
+
+.page-divider {
+    border-bottom: 1px solid #ddd;
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 300;
+    color: #575757;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigation {
+    /*margin-top: 10px;*/
+    font-size: 13px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    float: none;
+    text-align: center;
+}
+
+#nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.liGallery, .liAboutme, .liInfo {
+    margin-right: 30px;
+}
+
+#social {
+	text-align: center;
+	letter-spacing: 0.30em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: black;
+}
+
+
+/* Responsive Web Styling Elements */
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
