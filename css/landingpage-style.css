@@ -19,7 +19,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    margin: 0;
 }
 
 /* Creates space for filling out white space when viewed in a mobile phone */
@@ -30,6 +30,13 @@ footer {
 @media (min-width: 420px) {
     footer {
         display: none;
+    }
+}
+
+/* Repositions the background when viewed in a mobile phone */
+@media (max-width: 419px) {
+    body {
+        background-position: 50%;
     }
 }
 
@@ -53,6 +60,7 @@ footer {
 #welcome {
     text-align: center;
     font-size: 22px;
+    color: white;
 }
 
 #logo {
