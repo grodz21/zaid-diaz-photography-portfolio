@@ -12,6 +12,16 @@ a {
 	text-decoration: none;
 }
 
+body {
+    background-image: url("../images/photos/florida.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 /* Creates space for filling out white space when viewed in a mobile phone */
 footer {
 	height: 100px;
@@ -38,6 +48,11 @@ footer {
     font-weight: 500;
     font-style: normal;
     color: white;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 22px;
 }
 
 #logo {
