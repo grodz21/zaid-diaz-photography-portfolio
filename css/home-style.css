@@ -95,6 +95,10 @@ li {
     margin-right: 30px;
 }
 
+#photo-gallery {
+    text-align: center;
+}
+
 #social {
 	text-align: center;
 	letter-spacing: 0.30em;
