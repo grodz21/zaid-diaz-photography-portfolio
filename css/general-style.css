@@ -12,6 +12,8 @@ a {
 	text-decoration: none;
 }
 
+
+
 /* Creates space for filling out white space when viewed in a mobile phone */
 footer {
 	height: 100px;
@@ -107,6 +109,26 @@ li {
 	color: black;
 }
 
+/* ABOUT ME PAGE STYLING */
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 2em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 0 1em;
+}
+
+.aboutme {
+    margin: auto;
+    max-width: 47%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 
 /* Responsive Web Styling Elements */
 
@@ -178,7 +200,19 @@ li {
 
     .liGallery, .liAboutme, .liInfo {
     margin-right: 15px;
-}
+    }
+
+    .page-divider {
+        max-width: 80%;
+    }
+
+
+    /*Changes about me paragraph text styling*/
+    .aboutme {
+        max-width: 80%;
+        font-size: 15px;
+
+    }
 
 }
 
