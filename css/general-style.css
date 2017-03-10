@@ -99,6 +99,8 @@ li {
 
 #photo-gallery {
     text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #social {
@@ -128,6 +130,24 @@ p {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+/* Info page styling */
+
+.getInfo {
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 12%;
+
+}
+
+.getInfo > h1 {
+    font-weight: 100;
+}
+
+
+
+
+
 
 
 /* Responsive Web Styling Elements */
@@ -207,12 +227,22 @@ p {
     }
 
 
-    /*Changes about me paragraph text styling*/
+/*Changes about me paragraph text styling*/
     .aboutme {
         max-width: 80%;
         font-size: 15px;
 
     }
+
+
+/* Makes adjustments to info page on mobile view */
+    .getInfo {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 35%;
+    }
+
+
 
 }
 

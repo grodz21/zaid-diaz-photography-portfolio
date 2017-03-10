@@ -1,0 +1,10 @@
+#thumbnailSize {
+	height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.redBmwImg {
+    object-position: 80%;
+}
+
