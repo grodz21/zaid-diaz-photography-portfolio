@@ -93,7 +93,7 @@ li {
     display: inline-block;
 }
 
-.liGallery, .liAboutme, .liInfo {
+.liGallery, .liAboutme, .liJournal {
     margin-right: 30px;
 }
 
@@ -218,7 +218,7 @@ p {
         padding-left: 20px;
     }
 
-    .liGallery, .liAboutme, .liInfo {
+    .liGallery, .liAboutme, .liJournal {
     margin-right: 15px;
     }
 
